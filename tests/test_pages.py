@@ -174,7 +174,8 @@ def test_dataset_and_search_index(ws: Workspace) -> None:
     assert len(ds.listings_for(tomi, active_only=True)) == 2
     index = service.search_index(ws)
     # 索引は都道府県ごとに分かれている（入口・最近確認した分・県ごとのファイル）
-    assert set(index) == {"index.json", "recent.json", "nagano.json"}
+    assert set(index) == {"index.json", "recent.json", "nagano.json", "coastal.json"}
+    assert index["coastal.json"]["rows"] == []  # Nagano is outside the tracker region.
     assert index["index.json"]["total"] == 3  # stale は検索に出さない
     rows = index["nagano.json"]
     assert len(rows) == 3 and len(index["recent.json"]) == 3
@@ -217,7 +218,11 @@ def test_build_generates_all_pages_with_trust_and_no_photos(ws: Workspace) -> No
     # 転送ページ 5 枚（公開中 3 案件）、長野県の所有者向けページ 1 枚、
     # 県ごとの出典一覧 1 枚を含む（ADR 0010・0012・0014）。5 枚目は北海道限定の案件の分で、
     # このデータには北海道が無いので掲載先のページは無いが、転送ページは案件ごとに作られる
-    assert report.stages["build"]["pages"] == 19
+    assert report.stages["build"]["pages"] == 20  # Includes the coastal tracker.
+    coastal_html = (dist / "coastal/index.html").read_text(encoding="utf-8")
+    assert "data-coastal-form" in coastal_html and "data-sitemill-trust" in coastal_html
+    assert 'name="coast"' in coastal_html and 'name="airport"' in coastal_html
+    assert 'name="price"' in coastal_html
 
     # 補助制度のある県には所有者向けページを作り、市町村ページの導線をそちらに向ける（ADR 0012）
     pref_owners = (dist / "owners/nagano/index.html").read_text(encoding="utf-8")

@@ -1,0 +1,107 @@
+{
+  "run_at": "2026-10-21T18:27:23+00:00",
+  "source_ids": [
+    "wakayama-303836",
+    "mie-242152",
+    "kochi-394289",
+    "kochi-392031"
+  ],
+  "max_pages_per_source": 2,
+  "crawl": {
+    "service": "akiya-atlas",
+    "command": "crawl",
+    "started_at": "2026-10-21T18:26:49Z",
+    "finished_at": "2026-10-21T18:27:20Z",
+    "stages": {
+      "crawl": {
+        "fetched": 7,
+        "changed": 7,
+        "unchanged": 0,
+        "not_modified": 0,
+        "errors": 1,
+        "stale_cache": 0,
+        "requests": 13,
+        "workers": 1
+      }
+    },
+    "llm": {
+      "calls": 0,
+      "cached_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    "errors": [
+      "https://www.city.shima.mie.jp/cgi-bin/recruit.php/1/list: HTTP 502"
+    ],
+    "extraction_metrics": null,
+    "notes": [],
+    "ci": false
+  },
+  "pages": [
+    {
+      "source_id": "wakayama-303836",
+      "url": "http://www.town.yura.wakayama.jp/docs/2021081200033/",
+      "kind": "listing_index",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source_id": "wakayama-303836",
+      "url": "http://www.town.yura.wakayama.jp/docs/2024082100012/",
+      "kind": "subsidy",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source_id": "kochi-392031",
+      "url": "https://www.city.aki.kochi.jp/iju/reside/list.php",
+      "kind": "listing_index",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source_id": "kochi-392031",
+      "url": "https://www.city.aki.kochi.jp/life/dtl.php?hdnKey=8109",
+      "kind": "subsidy",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source_id": "mie-242152",
+      "url": "https://www.city.shima.mie.jp/cgi-bin/recruit.php/1/list",
+      "kind": "listing_index",
+      "status": 502,
+      "error": "HTTP 502"
+    },
+    {
+      "source_id": "mie-242152",
+      "url": "https://www.city.shima.mie.jp/kakuka/kensetsubu/eizenshitsu/eizen_sumai/1454318955400.html",
+      "kind": "subsidy",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source_id": "kochi-394289",
+      "url": "https://www.town.kuroshio.lg.jp/pb/cont/509",
+      "kind": "subsidy",
+      "status": 200,
+      "error": null
+    },
+    {
+      "source_id": "kochi-394289",
+      "url": "https://www.town.kuroshio.lg.jp/pb/cont/iju-sumu",
+      "kind": "listing_index",
+      "status": 200,
+      "error": null
+    }
+  ],
+  "extract": {
+    "blocked": "ANTHROPIC_API_KEY が設定されていません。サービスのルートにある .env に `ANTHROPIC_API_KEY=<値>` を書いてください（.env.example 参照）",
+    "new_records": 0
+  },
+  "inherited_active_sample_records": 126,
+  "inherited_sample_within_5km_90min": 62,
+  "all_inherited_active_records": 625,
+  "all_inherited_within_5km_90min": 71,
+  "count_basis": "Inherited fact records; not newly extracted listings from this crawl."
+}

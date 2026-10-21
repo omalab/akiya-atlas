@@ -58,7 +58,7 @@ jobs:
       # 配置はしない（配置は pipeline.yml の仕事）
       - name: Build（sitemap を作るためだけ。配置はしない）
         working-directory: akiya-atlas
-        run: uv run sitemill build
+        run: uv run akiya-atlas coastal-build
 
       - name: Search Console の取り込み
         working-directory: akiya-atlas

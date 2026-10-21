@@ -252,6 +252,12 @@ main { padding: 20px 0 56px; }
 .search-form label { display: flex; flex-direction: column; gap: 4px; font-size: 1rem; color: var(--ink-2); }
 .search-form select { padding: 10px 12px; font-size: 1.05rem; font-family: inherit; min-height: 48px; background: var(--surface); color: var(--ink); border: 2px solid var(--line); border-radius: 8px; width: 100%; }
 .search-form select:focus { border-color: var(--navy); }
+.coastal-form input { padding: 10px 12px; font: inherit; min-height: 48px; background: var(--surface); color: var(--ink); border: 2px solid var(--line); border-radius: 8px; width: 100%; min-width: 0; }
+.coastal-form input:focus { border-color: var(--navy); }
+.coastal-downloads { display: flex; flex-wrap: wrap; gap: 10px; }
+.coastal-form .btn, .coastal-downloads .btn { font: inherit; cursor: pointer; }
+.coastal-downloads .btn:disabled { opacity: .5; cursor: wait; }
+@media (max-width: 30rem) { .coastal-form { grid-template-columns: 1fr; } }
 .search-form .check { grid-column: 1 / -1; flex-direction: row; align-items: center; gap: 10px; color: var(--ink); min-height: 44px; }
 .search-form .check input { width: 24px; height: 24px; accent-color: var(--navy); }
 .search-status { margin: 14px 0 0; font-weight: 700; }

@@ -22,6 +22,67 @@ def _register(app: typer.Typer) -> None:
 
     from akiya_atlas import expand
 
+    @app.command("coastal-enrich")
+    def coastal_enrich_cmd(
+        limit: Annotated[int | None, typer.Option(min=1)] = None,
+        source: Annotated[list[str] | None, typer.Option("--source", "-s")] = None,
+    ) -> None:
+        """GSIで地区の位置を確かめ、海岸・空港の距離を保存（1秒間隔、キャッシュ使用）。"""
+        from akiya_atlas.coastal import enrich
+        from akiya_atlas.data import Dataset
+
+        rt = commands.Runtime.open()
+        typer.echo(
+            enrich(
+                rt.ws, Dataset.load(rt.ws), limit=limit, source_ids=set(source) if source else None
+            )
+        )
+
+    @app.command("coastal-export")
+    def coastal_export_cmd(
+        out: Annotated[Path, typer.Option()] = Path("dist/coastal"),
+        max_coast_km: Annotated[float, typer.Option(min=0)] = 5,
+        max_airport_minutes: Annotated[float, typer.Option(min=0)] = 90,
+        price_cap_yen: Annotated[int | None, typer.Option(min=0)] = None,
+    ) -> None:
+        """条件に合う物件JSONと24時間の新着JSON/RSSを出力する（ネットワーク不要）。"""
+        from sitemill.models import utcnow
+
+        from akiya_atlas.coastal import Filters, export
+        from akiya_atlas.data import Dataset
+
+        rt = commands.Runtime.open()
+        typer.echo(
+            export(
+                rt.ws,
+                Dataset.load(rt.ws),
+                out,
+                filters=Filters(max_coast_km, max_airport_minutes, price_cap_yen),
+                now=utcnow(),
+            )
+        )
+
+    @app.command("coastal-build")
+    def coastal_build_cmd() -> None:
+        """サイト全体と既定条件の新着JSON/RSSをビルドする（ネットワーク不要）。"""
+        import json
+        from datetime import datetime
+
+        from akiya_atlas.coastal import Filters, export_rows
+
+        rt = commands.Runtime.open()
+        commands.cmd_build(rt)
+        snapshot = json.loads((rt.ws.dist_dir / "search" / "coastal.json").read_text())
+        typer.echo(
+            export_rows(
+                snapshot["rows"],
+                rt.ws.site.base_url,
+                rt.ws.dist_dir / "coastal",
+                filters=Filters(),
+                now=datetime.fromisoformat(snapshot["generated_at"]),
+            )
+        )
+
     @app.command("expand")
     def expand_cmd(
         prefecture: Annotated[str, typer.Argument(help="都道府県名（例: 宮城県）")],

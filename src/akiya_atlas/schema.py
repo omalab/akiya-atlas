@@ -141,6 +141,9 @@ class Listing(BaseModel):
     source_url: str
     detail_url: str | None = None
     page_kind: str = "listing_index"
+    # Optional coordinates supplied by the primary source, never inferred by the LLM.
+    longitude: float | None = Field(default=None, ge=-180, le=180, allow_inf_nan=False)
+    latitude: float | None = Field(default=None, ge=-90, le=90, allow_inf_nan=False)
     provenance: dict[str, Any] | None = None
     status: str = "active"
     duplicate_of: str | None = None  # 同じ物件が別 source にもある（ADR 0009）

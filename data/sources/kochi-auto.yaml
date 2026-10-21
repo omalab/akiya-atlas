@@ -891,16 +891,18 @@ sources:
     prefecture: 高知県
     prefecture_slug: kochi
     slug: '394289'
-    bank_url: https://www.town.kuroshio.lg.jp/
-    bank_status: none
-    extract_pending: false
+    bank_url: https://www.town.kuroshio.lg.jp/pb/cont/iju-sumu
+    bank_status: available
+    extract_pending: true
     map_query: 高知県黒潮町
-    bank_note: 本サイトが確認した範囲では、この自治体の空き家バンクの物件ページを見つけられませんでした。移住・空き家の情報は公式サイトや県の窓口をご確認ください。
+    bank_note: 町の公式移住サイトの住宅一覧を確認。位置情報や距離は地区の代表点による目安です。
   operator_evidence:
-    quote: 公式ドメイン www.town.kuroshio.lg.jp（.lg.jp、地方公共団体専用ドメイン）
-    url: https://www.town.kuroshio.lg.jp/
-    checked_on: '2026-09-11'
+    quote: 黒潮町役場 企画調整室 地域振興係（移住支援担当） / Copyright© Kuroshio-Town All Rights Reserved.
+    url: https://www.town.kuroshio.lg.jp/pb/cont/iju-sumu
+    checked_on: '2026-10-21'
   pages:
+  - url: https://www.town.kuroshio.lg.jp/pb/cont/iju-sumu
+    kind: listing_index
   - url: https://www.town.kuroshio.lg.jp/pb/cont/509
     kind: subsidy
   allow_hosts:

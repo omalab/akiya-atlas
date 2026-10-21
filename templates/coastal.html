@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section" aria-labelledby="coastal-title">
+  <p class="eyebrow">関西・四国 · 海辺の暮らし</p>
+  <h1 id="coastal-title">海と空港に近い空き家</h1>
+  <p>大阪・兵庫・京都・奈良・和歌山・滋賀・三重・高知・愛媛・徳島・香川の自治体が掲載する物件を探します。</p>
+  <p class="note">{{ coastal_notice }}</p>
+  <p class="meta" data-sitemill-volatile>対象 {{ coastal_total }} 件中、位置を確認できた {{ coastal_known }} 件を距離で絞り込みます。位置不明の物件は距離検索と新着から除外します。</p>
+  <form class="search-form coastal-form" data-coastal-form>
+    <label>海岸までの距離（km 以下）<input name="coast" type="number" min="0" step="any" value="5" required></label>
+    <label>空港までの推定時間（分 以下）<input name="airport" type="number" min="0" step="any" value="90" required></label>
+    <label>売買価格の上限（円）<input name="price" type="number" min="0" step="1" placeholder="指定なし"></label>
+    <button class="btn btn-primary" type="submit">この条件で探す</button>
+  </form>
+  <p class="meta">価格上限を指定すると、売買価格不明・賃貸のみの物件は除外します。</p>
+  <p data-coastal-status aria-live="polite" data-sitemill-volatile>位置情報を読み込み中…</p>
+  <p><a href="/coastal/new.json">既定条件の新着 JSON</a> · <a href="/coastal/new.rss">既定条件の新着 RSS</a>（海岸5km・空港90分・価格上限なし）</p>
+  <p class="coastal-downloads"><button class="btn btn-ghost" type="button" data-coastal-json disabled>この条件の新着 JSON を保存</button> <button class="btn btn-ghost" type="button" data-coastal-rss disabled>この条件の新着 RSS を保存</button></p>
+  <p class="meta">新着はビルド時点から24時間以内に初めて見つかった物件です。再確認・価格変更では新着になりません。</p>
+  <ol class="lines results" data-coastal-results>
+  {% for row in coastal_hits %}
+    <li class="card"><div class="card-price">{{ row.price_text }}</div><div class="card-title"><a href="{{ row.url }}">{{ row.muni }} · {{ row.no }}</a></div>
+      <p>海岸 約{{ "%.1f"|format(row.geo.coast_km) }}km · {{ row.geo.airport_iata }} 推定{{ row.geo.airport_drive_minutes }}分</p>
+      <a href="{{ row.source_url }}">自治体の一次情報</a></li>
+  {% endfor %}
+  </ol>
+  <p class="more"><button type="button" data-coastal-more hidden>さらに表示</button></p>
+  <noscript><p>初期条件の先頭30件を表示しています。絞り込みにはJavaScriptが必要です。<a href="/coastal/listings.json">全検索結果のJSON</a>も利用できます。</p></noscript>
+  <p class="meta">位置情報：<a href="https://maps.gsi.go.jp/">国土地理院</a>の住所検索結果を加工。海岸線：<a href="https://www.naturalearthdata.com/">Natural Earth</a>。空港：<a href="https://ourairports.com/data/">OurAirports</a>の国内定期便ありの空港。運航状況は空港でご確認ください。</p>
+</section>
+<script src="/static/coastal.js" defer></script>
+{% endblock %}
