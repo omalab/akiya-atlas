@@ -213,3 +213,17 @@ Screenshots: [default](screenshots/default.png), [filtered](screenshots/filtered
 `.pth` files when this host marks them hidden; local verification used
 `PYTHONPATH=src:../sitemill/src` with the commands above. CI uses normal editable
 installation without that host-specific workaround.
+
+The fork's first CI run exposed a missing organization license for the inherited
+Gitleaks action wrapper. CI now downloads the pinned **8.30.1 MIT CLI**, checks its
+release SHA-256, and scans all Git history with redaction and failure on leaks.
+The Gitleaks job and the engine's independent secret scan both remain enabled;
+the commercial wrapper is unnecessary. See the [official CLI](https://github.com/gitleaks/gitleaks).
+Full-history triage found 61 pre-existing `generic-api-key` findings in
+`data/runs/operator-rechecks.jsonl`; every value was a public source ID matching an
+existing municipal configuration. The engine writes `Target.key` there as the source
+identifier. `.gitleaks.toml` keeps the default rules and exempts only the entire
+`key` match in that exact file when its value has the municipal source-ID shape.
+CI's synthetic Git-history check proves that another value in the same file and
+the same source ID in another file still trigger findings. No credential, directory
+or historical commit is blanket-ignored.

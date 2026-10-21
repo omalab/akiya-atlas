@@ -1,0 +1,13 @@
+[extend]
+useDefault = true
+
+# The recheck engine writes Target.key as the public source ID, e.g. kochi-392031
+# (sitemill/recheck.py). Full-history triage found 61 generic-api-key false positives;
+# each was a configured municipality ID. Require BOTH this file and the whole match.
+# Other key values in this file, and the same shape elsewhere, remain scanned.
+[[allowlists]]
+description = "Public municipality source IDs in operator recheck records"
+condition = "AND"
+paths = ['''^data/runs/operator-rechecks\.jsonl$''']
+regexTarget = "match"
+regexes = ['''^key"\s*:\s*"[a-z]+-[0-9]{6}"$''']
