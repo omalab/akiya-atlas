@@ -50,6 +50,11 @@ jobs:
         run: uv run ruff check src tests
       - working-directory: akiya-atlas
         run: uv run pytest -q
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - working-directory: akiya-atlas
+        run: node --test tests/coastal_ui.test.cjs
       - name: Secret scan (全履歴)
         working-directory: akiya-atlas
         run: uv run sitemill scan-secrets --history

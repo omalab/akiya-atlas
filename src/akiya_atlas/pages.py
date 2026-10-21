@@ -1006,6 +1006,42 @@ def build_pages(ws: Workspace, ds: Dataset, *, now: datetime) -> list[Page]:
             noindex=True,
         )
     )
+    from akiya_atlas.coastal import NOTICE, PREFECTURES, Filters, matches, tracker_rows
+
+    coastal_rows = tracker_rows(ws, ds)
+    coastal_hits = [r for r in coastal_rows if matches(r, Filters())]
+    coastal_sources = [
+        link
+        for m in ds.municipalities
+        if m.prefecture_slug in PREFECTURES
+        for link in source_links(ctx, m)
+    ]
+    coastal_sources.extend(
+        [
+            SourceLink(label="国土地理院（地区位置）", url="https://maps.gsi.go.jp/"),
+            SourceLink(
+                label="Natural Earth（概略海岸線）", url="https://www.naturalearthdata.com/"
+            ),
+        ]
+    )
+    pages.append(
+        _page(
+            ctx,
+            path="coastal/index.html",
+            template="coastal.html",
+            title="海と空港に近い空き家 — 関西・四国",
+            description="関西・四国11府県の空き家を海岸距離・空港までの推定時間・売買価格で探す。",
+            context={
+                "coastal_hits": coastal_hits[:30],
+                "coastal_total": len(coastal_rows),
+                "coastal_known": sum(r["geo"]["status"] == "ok" for r in coastal_rows),
+                "coastal_notice": NOTICE,
+            },
+            trust_signals=trust(
+                ctx, sources=trust_sources(coastal_sources), count=len(coastal_hits)
+            ),
+        )
+    )
     return pages
 
 
@@ -1081,6 +1117,12 @@ def search_index(ws: Workspace, ds: Dataset) -> dict[str, Any]:
     入口（index.json）は都道府県と市町村の一覧と件数だけ、物件の行は選ばれた都道府県のファイル
     （<slug>.json）だけを読む。都道府県を選ぶ前に出す分として recent.json（最近確認した分）を置く。
     """
+    from dataclasses import asdict
+
+    from sitemill.models import utcnow
+
+    from akiya_atlas.coastal import NOTICE, Filters, tracker_rows
+
     hidden = hidden_paths(ws)
     by_pref: dict[str, list[dict[str, Any]]] = {}
     meta: list[dict[str, Any]] = []
@@ -1105,6 +1147,12 @@ def search_index(ws: Workspace, ds: Dataset) -> dict[str, Any]:
     return {
         "index.json": {"total": total, "prefectures": meta, "recent_count": len(recent)},
         "recent.json": recent,
+        "coastal.json": {
+            "rows": tracker_rows(ws, ds),
+            "defaults": asdict(Filters()),
+            "notice": NOTICE,
+            "generated_at": utcnow().isoformat(),
+        },
         **by_pref,
     }
 

@@ -1,0 +1,1835 @@
+{
+  "和歌山県紀美野町動木": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.310043,
+    "latitude": 34.164387,
+    "label": "和歌山県紀美野町動木"
+  },
+  "和歌山県かつらぎ町笠田東": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.479309,
+    "latitude": 34.29081,
+    "label": "和歌山県かつらぎ町笠田東"
+  },
+  "和歌山県かつらぎ町佐野": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.485535,
+    "latitude": 34.293949,
+    "label": "和歌山県かつらぎ町佐野"
+  },
+  "和歌山県かつらぎ町大谷": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.492355,
+    "latitude": 34.300369,
+    "label": "和歌山県かつらぎ町大谷"
+  },
+  "和歌山県かつらぎ町丁ノ町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.510086,
+    "latitude": 34.309441,
+    "label": "和歌山県かつらぎ町丁ノ町"
+  },
+  "和歌山県かつらぎ町笠田中": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.471161,
+    "latitude": 34.296078,
+    "label": "和歌山県かつらぎ町笠田中"
+  },
+  "和歌山県かつらぎ町妙寺": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.521317,
+    "latitude": 34.306419,
+    "label": "和歌山県かつらぎ町妙寺"
+  },
+  "和歌山県かつらぎ町中飯降": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.535492,
+    "latitude": 34.316334,
+    "label": "和歌山県かつらぎ町中飯降"
+  },
+  "和歌山県かつらぎ町高田": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.45134,
+    "latitude": 34.282688,
+    "label": "和歌山県かつらぎ町高田"
+  },
+  "和歌山県かつらぎ町短野": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.515121,
+    "latitude": 34.324886,
+    "label": "和歌山県かつらぎ町短野"
+  },
+  "和歌山県かつらぎ町三谷": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.513916,
+    "latitude": 34.282688,
+    "label": "和歌山県かつらぎ町三谷"
+  },
+  "和歌山県かつらぎ町移": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.455429,
+    "latitude": 34.293476,
+    "label": "和歌山県かつらぎ町移"
+  },
+  "和歌山県広川町上津木地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "和歌山県広川町広地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "和歌山県広川町上中野地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "和歌山県広川町唐尾地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "和歌山県広川町下津木地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "和歌山県由良町大引地内": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "和歌山県由良町網代地内": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "和歌山県由良町吹井地内": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "和歌山県由良町衣奈地内": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "和歌山県由良町里地内": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "和歌山県由良町阿戸地内": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県安芸市下山": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.942688,
+    "latitude": 33.464527,
+    "label": "高知県安芸市下山"
+  },
+  "高知県安芸市土居": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.910645,
+    "latitude": 33.515244,
+    "label": "高知県安芸市土居"
+  },
+  "高知県安芸市本町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.908707,
+    "latitude": 33.500259,
+    "label": "高知県安芸市本町"
+  },
+  "高知県安芸市寿町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.903214,
+    "latitude": 33.498222,
+    "label": "高知県安芸市寿町"
+  },
+  "高知県安芸市赤野": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県安芸市染井町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.895157,
+    "latitude": 33.502987,
+    "label": "高知県安芸市染井町"
+  },
+  "高知県安芸市川北": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県安芸市宝永町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.899429,
+    "latitude": 33.506199,
+    "label": "高知県安芸市宝永町"
+  },
+  "高知県安芸市庄之芝町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.900284,
+    "latitude": 33.502476,
+    "label": "高知県安芸市庄之芝町"
+  },
+  "高知県安芸市伊尾木": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.927597,
+    "latitude": 33.492027,
+    "label": "高知県安芸市伊尾木"
+  },
+  "高知県安芸市東浜": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.913742,
+    "latitude": 33.505234,
+    "label": "高知県安芸市東浜"
+  },
+  "高知県安芸市井ノ口乙": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.903061,
+    "latitude": 33.537766,
+    "label": "高知県安芸市井ノ口乙"
+  },
+  "高知県安芸市港町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.911697,
+    "latitude": 33.49855,
+    "label": "高知県安芸市港町"
+  },
+  "高知県安芸市井ノ口": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県安芸市黒鳥": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.898605,
+    "latitude": 33.509384,
+    "label": "高知県安芸市黒鳥"
+  },
+  "高知県安芸市花園町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.909973,
+    "latitude": 33.505371,
+    "label": "高知県安芸市花園町"
+  },
+  "高知県安芸市川北甲": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.927704,
+    "latitude": 33.50626,
+    "label": "高知県安芸市川北甲"
+  },
+  "高知県安芸市赤野乙": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.829529,
+    "latitude": 33.521629,
+    "label": "高知県安芸市赤野乙"
+  },
+  "高知県安芸市日ノ出町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.907669,
+    "latitude": 33.496792,
+    "label": "高知県安芸市日ノ出町"
+  },
+  "高知県安芸市矢ノ丸": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.909103,
+    "latitude": 33.502052,
+    "label": "高知県安芸市矢ノ丸"
+  },
+  "高知県安芸市千歳町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.895493,
+    "latitude": 33.50008,
+    "label": "高知県安芸市千歳町"
+  },
+  "高知県安芸市久世町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.903931,
+    "latitude": 33.501553,
+    "label": "高知県安芸市久世町"
+  },
+  "高知県安芸市津久茂町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.89061,
+    "latitude": 33.500935,
+    "label": "高知県安芸市津久茂町"
+  },
+  "高知県香南市香我美町": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県香美市物部町大栃": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.883224,
+    "latitude": 33.705917,
+    "label": "高知県香美市物部町大栃"
+  },
+  "高知県香美市香北町下野尻": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.771011,
+    "latitude": 33.644009,
+    "label": "高知県香美市香北町下野尻"
+  },
+  "高知県香美市香北町岩改": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.766495,
+    "latitude": 33.62133,
+    "label": "高知県香美市香北町岩改"
+  },
+  "高知県香美市土佐山田町東本町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.686279,
+    "latitude": 33.606133,
+    "label": "高知県香美市土佐山田町東本町"
+  },
+  "高知県香美市香北町橋川野": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.747482,
+    "latitude": 33.638931,
+    "label": "高知県香美市香北町橋川野"
+  },
+  "高知県香美市香北町五百蔵": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.757141,
+    "latitude": 33.657955,
+    "label": "高知県香美市香北町五百蔵"
+  },
+  "高知県香美市香北町吉野": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.810303,
+    "latitude": 33.653332,
+    "label": "高知県香美市香北町吉野"
+  },
+  "高知県香美市土佐山田町黒土": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.686356,
+    "latitude": 33.600143,
+    "label": "高知県香美市土佐山田町黒土"
+  },
+  "高知県香美市土佐山田町南組": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.68399,
+    "latitude": 33.598763,
+    "label": "高知県香美市土佐山田町南組"
+  },
+  "高知県香美市物部町山崎": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県香美市香北町朴ノ木": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.798157,
+    "latitude": 33.660622,
+    "label": "高知県香美市香北町朴ノ木"
+  },
+  "高知県香美市香北町韮生野": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.791351,
+    "latitude": 33.643959,
+    "label": "高知県香美市香北町韮生野"
+  },
+  "高知県香美市土佐山田町原東": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県香美市香北町中谷": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.791428,
+    "latitude": 33.670624,
+    "label": "高知県香美市香北町中谷"
+  },
+  "高知県香美市土佐山田町佐野": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.711884,
+    "latitude": 33.628601,
+    "label": "高知県香美市土佐山田町佐野"
+  },
+  "高知県香美市香北町白石": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.839447,
+    "latitude": 33.677361,
+    "label": "高知県香美市香北町白石"
+  },
+  "高知県香美市土佐山田町八王子": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県田野町": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県芸西村西分乙": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県芸西村和食甲": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県芸西村馬ノ上": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.815674,
+    "latitude": 33.544525,
+    "label": "高知県芸西村馬ノ上"
+  },
+  "高知県芸西村西分甲": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県大豊町尾生": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.694763,
+    "latitude": 33.798733,
+    "label": "高知県大豊町尾生"
+  },
+  "高知県中土佐町久礼神山西": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県中土佐町久礼住吉西": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県中土佐町上ノ加江第": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県中土佐町久礼旭町": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県中土佐町久礼恵美須町": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県中土佐町上ノ加江網代": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県中土佐町大野見久万秋": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.143204,
+    "latitude": 33.349426,
+    "label": "高知県中土佐町大野見久万秋"
+  },
+  "高知県中土佐町久礼大新改": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県中土佐町上ノ加江天王町": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県中土佐町大野見吉野": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.15303,
+    "latitude": 33.332451,
+    "label": "高知県中土佐町大野見吉野"
+  },
+  "高知県中土佐町久礼長沢中上": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県中土佐町大野見奈路": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.136536,
+    "latitude": 33.341965,
+    "label": "高知県中土佐町大野見奈路"
+  },
+  "高知県中土佐町久礼長沢中下": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県佐川町丙": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.266541,
+    "latitude": 33.510571,
+    "label": "高知県佐川町丙"
+  },
+  "高知県佐川町甲": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.297577,
+    "latitude": 33.500736,
+    "label": "高知県佐川町甲"
+  },
+  "高知県佐川町加茂": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.322098,
+    "latitude": 33.515568,
+    "label": "高知県佐川町加茂"
+  },
+  "高知県佐川町乙": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.289948,
+    "latitude": 33.507252,
+    "label": "高知県佐川町乙"
+  },
+  "高知県佐川町西組": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.273239,
+    "latitude": 33.476807,
+    "label": "高知県佐川町西組"
+  },
+  "高知県佐川町中組": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.289398,
+    "latitude": 33.466469,
+    "label": "高知県佐川町中組"
+  },
+  "高知県佐川町平野": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.26651,
+    "latitude": 33.545311,
+    "label": "高知県佐川町平野"
+  },
+  "高知県佐川町黒原": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.285873,
+    "latitude": 33.545685,
+    "label": "高知県佐川町黒原"
+  },
+  "高知県佐川町東町": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県佐川町本郷耕": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.248825,
+    "latitude": 33.495674,
+    "label": "高知県佐川町本郷耕"
+  },
+  "高知県佐川町二ツ野": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.30397,
+    "latitude": 33.543751,
+    "label": "高知県佐川町二ツ野"
+  },
+  "高知県佐川町本郷": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県越知町越知甲": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.243881,
+    "latitude": 33.52248,
+    "label": "高知県越知町越知甲"
+  },
+  "高知県津野町高野": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県津野町桂": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県四万十町口神ノ川": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.10556,
+    "latitude": 33.201305,
+    "label": "高知県四万十町口神ノ川"
+  },
+  "高知県四万十町十川": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.865555,
+    "latitude": 33.25832,
+    "label": "高知県四万十町十川"
+  },
+  "高知県四万十町昭和": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.905975,
+    "latitude": 33.216511,
+    "label": "高知県四万十町昭和"
+  },
+  "高知県四万十町香月が丘": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.128769,
+    "latitude": 33.21566,
+    "label": "高知県四万十町香月が丘"
+  },
+  "高知県四万十町北琴平町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.134705,
+    "latitude": 33.215164,
+    "label": "高知県四万十町北琴平町"
+  },
+  "高知県四万十町仁井田": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.165115,
+    "latitude": 33.245125,
+    "label": "高知県四万十町仁井田"
+  },
+  "高知県四万十町藤ノ川": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.169174,
+    "latitude": 33.217098,
+    "label": "高知県四万十町藤ノ川"
+  },
+  "高知県四万十町壱斗俵": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.112549,
+    "latitude": 33.294441,
+    "label": "高知県四万十町壱斗俵"
+  },
+  "高知県四万十町茂串町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.133255,
+    "latitude": 33.208176,
+    "label": "高知県四万十町茂串町"
+  },
+  "高知県四万十町本町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.133545,
+    "latitude": 33.210251,
+    "label": "高知県四万十町本町"
+  },
+  "高知県四万十町七里": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.13414,
+    "latitude": 33.256802,
+    "label": "高知県四万十町七里"
+  },
+  "高知県四万十町奈路": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.185638,
+    "latitude": 33.235668,
+    "label": "高知県四万十町奈路"
+  },
+  "高知県四万十町十和川口": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.835861,
+    "latitude": 33.22945,
+    "label": "高知県四万十町十和川口"
+  },
+  "高知県四万十町興津": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 133.179016,
+    "latitude": 33.164539,
+    "label": "高知県四万十町興津"
+  },
+  "高知県大月町姫ノ井": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.740723,
+    "latitude": 32.798805,
+    "label": "高知県大月町姫ノ井"
+  },
+  "高知県大月町弘見": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.704056,
+    "latitude": 32.847752,
+    "label": "高知県大月町弘見"
+  },
+  "高知県大月町橘浦": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.662888,
+    "latitude": 32.823788,
+    "label": "高知県大月町橘浦"
+  },
+  "高知県大月町竜ヶ迫": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県大月町安満地": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.653946,
+    "latitude": 32.800072,
+    "label": "高知県大月町安満地"
+  },
+  "高知県大月町大浦": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.760117,
+    "latitude": 32.76067,
+    "label": "高知県大月町大浦"
+  },
+  "高知県大月町弘見本田": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県大月町才角": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.766251,
+    "latitude": 32.772575,
+    "label": "高知県大月町才角"
+  },
+  "高知県大月町古満目": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.684616,
+    "latitude": 32.787518,
+    "label": "高知県大月町古満目"
+  },
+  "高知県大月町平山": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.670197,
+    "latitude": 32.790012,
+    "label": "高知県大月町平山"
+  },
+  "高知県大月町小才角": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.778259,
+    "latitude": 32.777302,
+    "label": "高知県大月町小才角"
+  },
+  "高知県大月町一切": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.650513,
+    "latitude": 32.786652,
+    "label": "高知県大月町一切"
+  },
+  "高知県大月町芳ノ沢本村": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県大月町頭集": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.686127,
+    "latitude": 32.805058,
+    "label": "高知県大月町頭集"
+  },
+  "高知県大月町柏島": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.634842,
+    "latitude": 32.766674,
+    "label": "高知県大月町柏島"
+  },
+  "高知県大月町春遠": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.750229,
+    "latitude": 32.821896,
+    "label": "高知県大月町春遠"
+  },
+  "高知県大月町龍ケ迫": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.678375,
+    "latitude": 32.862961,
+    "label": "高知県大月町龍ケ迫"
+  },
+  "高知県大月町芳ノ澤": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.69577,
+    "latitude": 32.867771,
+    "label": "高知県大月町芳ノ澤"
+  },
+  "高知県大月町西泊": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.731842,
+    "latitude": 32.780762,
+    "label": "高知県大月町西泊"
+  },
+  "高知県大月町田城": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "高知県大月町成畑": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県阿波市土成町高尾": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.370056,
+    "latitude": 34.132561,
+    "label": "徳島県阿波市土成町高尾"
+  },
+  "徳島県阿波市土成町成当松原": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県阿波市阿波町下喜来南": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.268295,
+    "latitude": 34.088768,
+    "label": "徳島県阿波市阿波町下喜来南"
+  },
+  "徳島県阿波市吉野町西条井ノ元": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県阿波市市場町犬墓大北": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県阿波市市場町伊月": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.324463,
+    "latitude": 34.088898,
+    "label": "徳島県阿波市市場町伊月"
+  },
+  "徳島県阿波市市場町上喜来正田": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県阿波市市場町香美渡": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県阿波市市場町大野島王子前": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県阿波市市場町大影平間": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県阿波市吉野町柿原原": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県阿波市市場町山野上大西": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県阿波市吉野町西条町口": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県阿波市土成町土成大木": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県阿波市土成町吉田神の木": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県阿波市阿波町岡地": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.233307,
+    "latitude": 34.080173,
+    "label": "徳島県阿波市阿波町岡地"
+  },
+  "徳島県阿波市阿波町北西谷": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.1931,
+    "latitude": 34.080151,
+    "label": "徳島県阿波市阿波町北西谷"
+  },
+  "徳島県阿波市阿波町中川原": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.202347,
+    "latitude": 34.071198,
+    "label": "徳島県阿波市阿波町中川原"
+  },
+  "徳島県阿波市市場町市場上野段": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県阿波市阿波町新開": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.240906,
+    "latitude": 34.078201,
+    "label": "徳島県阿波市阿波町新開"
+  },
+  "徳島県阿波市阿波町東条": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.222443,
+    "latitude": 34.08139,
+    "label": "徳島県阿波市阿波町東条"
+  },
+  "徳島県阿波市土成町土成実安": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県那賀町鷲敷": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県牟岐町中村本村": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.416107,
+    "latitude": 33.669136,
+    "label": "徳島県牟岐町大字中村本村"
+  },
+  "徳島県牟岐町中村杉谷": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.409637,
+    "latitude": 33.675709,
+    "label": "徳島県牟岐町大字中村杉谷"
+  },
+  "徳島県牟岐町川長天神前": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.421906,
+    "latitude": 33.671715,
+    "label": "徳島県牟岐町大字川長天神前"
+  },
+  "徳島県牟岐町灘宮田": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.424301,
+    "latitude": 33.667744,
+    "label": "徳島県牟岐町大字灘宮田"
+  },
+  "徳島県美波町田井": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.578735,
+    "latitude": 33.776749,
+    "label": "徳島県美波町田井"
+  },
+  "徳島県海陽町大里松原": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "徳島県海陽町奥浦": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.353073,
+    "latitude": 33.593124,
+    "label": "徳島県海陽町奥浦"
+  },
+  "徳島県海陽町浅川": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.363861,
+    "latitude": 33.655743,
+    "label": "徳島県海陽町浅川"
+  },
+  "徳島県海陽町鞆浦": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.359772,
+    "latitude": 33.590462,
+    "label": "徳島県海陽町鞆浦"
+  },
+  "徳島県海陽町宍喰浦": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.305969,
+    "latitude": 33.566509,
+    "label": "徳島県海陽町宍喰浦"
+  },
+  "徳島県海陽町中山": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.316788,
+    "latitude": 33.601433,
+    "label": "徳島県海陽町中山"
+  },
+  "徳島県海陽町久尾": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.196304,
+    "latitude": 33.621265,
+    "label": "徳島県海陽町久尾"
+  },
+  "徳島県海陽町小谷": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.250961,
+    "latitude": 33.599312,
+    "label": "徳島県海陽町小谷"
+  },
+  "徳島県海陽町広岡": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.26799,
+    "latitude": 33.578094,
+    "label": "徳島県海陽町広岡"
+  },
+  "愛媛県大洲市菅田町": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "愛媛県伊方町中之浜": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 132.369614,
+    "latitude": 33.482761,
+    "label": "愛媛県伊方町中之浜"
+  },
+  "三重県津市美杉町太郎生": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.1884,
+    "latitude": 34.542702,
+    "label": "三重県津市美杉町太郎生"
+  },
+  "三重県松阪市大津町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.550888,
+    "latitude": 34.566399,
+    "label": "三重県松阪市大津町"
+  },
+  "三重県松阪市桜町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.511459,
+    "latitude": 34.567665,
+    "label": "三重県松阪市桜町"
+  },
+  "三重県松阪市小黒田町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.517593,
+    "latitude": 34.557178,
+    "label": "三重県松阪市小黒田町"
+  },
+  "三重県松阪市末広町一丁目": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.539612,
+    "latitude": 34.575199,
+    "label": "三重県松阪市末広町一丁目"
+  },
+  "三重県松阪市上川町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.560654,
+    "latitude": 34.551132,
+    "label": "三重県松阪市上川町"
+  },
+  "三重県松阪市庄町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.510117,
+    "latitude": 34.508556,
+    "label": "三重県松阪市庄町"
+  },
+  "三重県松阪市垣鼻町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.53862,
+    "latitude": 34.565334,
+    "label": "三重県松阪市垣鼻町"
+  },
+  "三重県松阪市嬉野黒田町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.47937,
+    "latitude": 34.641808,
+    "label": "三重県松阪市嬉野黒田町"
+  },
+  "三重県松阪市法田町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.580612,
+    "latitude": 34.527191,
+    "label": "三重県松阪市法田町"
+  },
+  "三重県松阪市猟師町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.548477,
+    "latitude": 34.604031,
+    "label": "三重県松阪市猟師町"
+  },
+  "三重県松阪市久保町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.534348,
+    "latitude": 34.548641,
+    "label": "三重県松阪市久保町"
+  },
+  "三重県亀山市安坂山町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.401199,
+    "latitude": 34.927628,
+    "label": "三重県亀山市安坂山町"
+  },
+  "三重県亀山市白木町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.383835,
+    "latitude": 34.887344,
+    "label": "三重県亀山市白木町"
+  },
+  "三重県亀山市加太向井": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.339127,
+    "latitude": 34.832176,
+    "label": "三重県亀山市加太向井"
+  },
+  "三重県亀山市中庄町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.471497,
+    "latitude": 34.826759,
+    "label": "三重県亀山市中庄町"
+  },
+  "三重県亀山市太岡寺町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.414062,
+    "latitude": 34.861702,
+    "label": "三重県亀山市太岡寺町"
+  },
+  "三重県亀山市高塚町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.464706,
+    "latitude": 34.85368,
+    "label": "三重県亀山市高塚町"
+  },
+  "三重県亀山市関町新所": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.385437,
+    "latitude": 34.84856,
+    "label": "三重県亀山市関町新所"
+  },
+  "三重県亀山市本町四丁目": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.464951,
+    "latitude": 34.856396,
+    "label": "三重県亀山市本町四丁目"
+  },
+  "三重県亀山市加太中在家": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.29454,
+    "latitude": 34.826279,
+    "label": "三重県亀山市加太中在家"
+  },
+  "三重県亀山市両尾町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.43956,
+    "latitude": 34.903835,
+    "label": "三重県亀山市両尾町"
+  },
+  "三重県亀山市下庄町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.482849,
+    "latitude": 34.820541,
+    "label": "三重県亀山市下庄町"
+  },
+  "三重県亀山市南野町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.444275,
+    "latitude": 34.853497,
+    "label": "三重県亀山市南野町"
+  },
+  "三重県亀山市みどり町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.485153,
+    "latitude": 34.871037,
+    "label": "三重県亀山市みどり町"
+  },
+  "三重県亀山市関町白木一色": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.396927,
+    "latitude": 34.875755,
+    "label": "三重県亀山市関町白木一色"
+  },
+  "三重県亀山市本町二丁目": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.461151,
+    "latitude": 34.854195,
+    "label": "三重県亀山市本町二丁目"
+  },
+  "三重県いなべ市北勢町向平": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.521881,
+    "latitude": 35.175079,
+    "label": "三重県いなべ市北勢町向平"
+  },
+  "三重県いなべ市藤原町下野尻": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.503159,
+    "latitude": 35.158497,
+    "label": "三重県いなべ市藤原町下野尻"
+  },
+  "三重県いなべ市北勢町阿下喜": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.518906,
+    "latitude": 35.151623,
+    "label": "三重県いなべ市北勢町阿下喜"
+  },
+  "三重県いなべ市大安町平塚": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.533417,
+    "latitude": 35.104134,
+    "label": "三重県いなべ市大安町平塚"
+  },
+  "三重県いなべ市北勢町東貝野": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.542587,
+    "latitude": 35.178192,
+    "label": "三重県いなべ市北勢町東貝野"
+  },
+  "三重県いなべ市藤原町市場": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.492035,
+    "latitude": 35.176331,
+    "label": "三重県いなべ市藤原町市場"
+  },
+  "三重県いなべ市員弁町御薗": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.555054,
+    "latitude": 35.108276,
+    "label": "三重県いなべ市員弁町御薗"
+  },
+  "三重県いなべ市北勢町其原": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.543228,
+    "latitude": 35.138062,
+    "label": "三重県いなべ市北勢町其原"
+  },
+  "三重県いなべ市北勢町垣内": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.501068,
+    "latitude": 35.136093,
+    "label": "三重県いなべ市北勢町垣内"
+  },
+  "三重県いなべ市北勢町東村": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.531784,
+    "latitude": 35.149441,
+    "label": "三重県いなべ市北勢町東村"
+  },
+  "三重県志摩市大王町波切": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.87384,
+    "latitude": 34.285595,
+    "label": "三重県志摩市大王町波切"
+  },
+  "三重県志摩市志摩町和具": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.811371,
+    "latitude": 34.262363,
+    "label": "三重県志摩市志摩町和具"
+  },
+  "三重県志摩市浜島町浜島": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.746613,
+    "latitude": 34.303261,
+    "label": "三重県志摩市浜島町浜島"
+  },
+  "三重県志摩市志摩町御座": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.766724,
+    "latitude": 34.269543,
+    "label": "三重県志摩市志摩町御座"
+  },
+  "三重県志摩市阿児町鵜方": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.82373,
+    "latitude": 34.329956,
+    "label": "三重県志摩市阿児町鵜方"
+  },
+  "三重県志摩市阿児町国府": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.865463,
+    "latitude": 34.336918,
+    "label": "三重県志摩市阿児町国府"
+  },
+  "三重県志摩市大王町船越": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.869858,
+    "latitude": 34.27523,
+    "label": "三重県志摩市大王町船越"
+  },
+  "三重県木曽岬町源緑輪中": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.742096,
+    "latitude": 35.055332,
+    "label": "三重県木曽岬町源緑輪中"
+  },
+  "三重県木曽岬町富田子": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.749054,
+    "latitude": 35.072044,
+    "label": "三重県木曽岬町富田子"
+  },
+  "兵庫県丹波篠山市大山地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県丹波篠山市福住地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県丹波篠山市今田地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県丹波篠山市味間地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県丹波篠山市篠山地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県丹波篠山市西紀中地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県丹波篠山市大芋地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県丹波篠山市村雲地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県丹波篠山市城北地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県丹波篠山市八上地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県丹波篠山市畑地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県丹波篠山市岡野地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県丹波篠山市城南地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県丹波篠山市日置地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県丹波篠山市古市地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県丹波篠山市西紀北地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県丹波篠山市西紀南地区": {
+    "status": "unresolved",
+    "provider": "GSI"
+  },
+  "兵庫県たつの市神岡町横内": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.574066,
+    "latitude": 34.88699,
+    "label": "兵庫県たつの市神岡町横内"
+  },
+  "兵庫県たつの市揖西町清水新": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.52475,
+    "latitude": 34.858261,
+    "label": "兵庫県たつの市揖西町清水新"
+  },
+  "兵庫県たつの市誉田町長真": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.551971,
+    "latitude": 34.847469,
+    "label": "兵庫県たつの市誉田町長真"
+  },
+  "兵庫県たつの市龍野町島田": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.556198,
+    "latitude": 34.874672,
+    "label": "兵庫県たつの市龍野町島田"
+  },
+  "兵庫県たつの市龍野町富永": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.546539,
+    "latitude": 34.858459,
+    "label": "兵庫県たつの市龍野町富永"
+  },
+  "兵庫県たつの市龍野町日山": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.539124,
+    "latitude": 34.862247,
+    "label": "兵庫県たつの市龍野町日山"
+  },
+  "兵庫県たつの市神岡町上横内": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.576492,
+    "latitude": 34.892067,
+    "label": "兵庫県たつの市神岡町上横内"
+  },
+  "兵庫県たつの市龍野町日飼": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.553986,
+    "latitude": 34.867393,
+    "label": "兵庫県たつの市龍野町日飼"
+  },
+  "兵庫県たつの市龍野町上川原": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.546967,
+    "latitude": 34.867786,
+    "label": "兵庫県たつの市龍野町上川原"
+  },
+  "兵庫県たつの市揖西町竹原": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.487457,
+    "latitude": 34.839294,
+    "label": "兵庫県たつの市揖西町竹原"
+  },
+  "兵庫県たつの市揖保町松原": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.554794,
+    "latitude": 34.825806,
+    "label": "兵庫県たつの市揖保町松原"
+  },
+  "兵庫県たつの市龍野町堂本": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.55365,
+    "latitude": 34.855801,
+    "label": "兵庫県たつの市龍野町堂本"
+  },
+  "兵庫県たつの市神岡町西鳥井": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.579086,
+    "latitude": 34.888515,
+    "label": "兵庫県たつの市神岡町西鳥井"
+  },
+  "兵庫県たつの市神岡町沢田": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.567749,
+    "latitude": 34.876465,
+    "label": "兵庫県たつの市神岡町沢田"
+  },
+  "兵庫県福崎町八千種": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.781128,
+    "latitude": 34.929729,
+    "label": "兵庫県福崎町八千種"
+  },
+  "兵庫県福崎町福崎新": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.751694,
+    "latitude": 34.952267,
+    "label": "兵庫県福崎町福崎新"
+  },
+  "兵庫県福崎町西田原": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.764236,
+    "latitude": 34.957024,
+    "label": "兵庫県福崎町西田原"
+  },
+  "兵庫県福崎町馬田": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.755737,
+    "latitude": 34.958813,
+    "label": "兵庫県福崎町馬田"
+  },
+  "兵庫県福崎町南田原": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.760696,
+    "latitude": 34.945431,
+    "label": "兵庫県福崎町南田原"
+  },
+  "兵庫県福崎町西治": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.735825,
+    "latitude": 34.949413,
+    "label": "兵庫県福崎町西治"
+  },
+  "兵庫県福崎町福田": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.747864,
+    "latitude": 34.965206,
+    "label": "兵庫県福崎町福田"
+  },
+  "兵庫県福崎町東田原": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.777603,
+    "latitude": 34.957695,
+    "label": "兵庫県福崎町東田原"
+  },
+  "兵庫県福崎町山崎": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.756134,
+    "latitude": 34.969872,
+    "label": "兵庫県福崎町山崎"
+  },
+  "兵庫県福崎町高岡": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.726196,
+    "latitude": 34.97525,
+    "label": "兵庫県福崎町高岡"
+  },
+  "兵庫県福崎町大貫": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.790833,
+    "latitude": 34.955101,
+    "label": "兵庫県福崎町大貫"
+  },
+  "兵庫県福崎町高橋": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.738892,
+    "latitude": 34.940548,
+    "label": "兵庫県福崎町高橋"
+  },
+  "兵庫県神河町寺前": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.731735,
+    "latitude": 35.074471,
+    "label": "兵庫県神河町寺前"
+  },
+  "兵庫県神河町作畑": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.86142,
+    "latitude": 35.164635,
+    "label": "兵庫県神河町作畑"
+  },
+  "兵庫県神河町粟賀町": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.775681,
+    "latitude": 35.066429,
+    "label": "兵庫県神河町粟賀町"
+  },
+  "兵庫県神河町貝野": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.76532,
+    "latitude": 35.042892,
+    "label": "兵庫県神河町貝野"
+  },
+  "兵庫県神河町長谷": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.730881,
+    "latitude": 35.125141,
+    "label": "兵庫県神河町長谷"
+  },
+  "兵庫県神河町大山": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.786545,
+    "latitude": 35.112022,
+    "label": "兵庫県神河町大山"
+  },
+  "兵庫県神河町上小田": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.676743,
+    "latitude": 35.118477,
+    "label": "兵庫県神河町上小田"
+  },
+  "兵庫県神河町栗": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.757187,
+    "latitude": 35.116844,
+    "label": "兵庫県神河町栗"
+  },
+  "兵庫県神河町高朝田": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.711426,
+    "latitude": 35.065575,
+    "label": "兵庫県神河町高朝田"
+  },
+  "兵庫県神河町福本": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.788116,
+    "latitude": 35.051456,
+    "label": "兵庫県神河町福本"
+  },
+  "兵庫県神河町大畑": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.857819,
+    "latitude": 35.130653,
+    "label": "兵庫県神河町大畑"
+  },
+  "兵庫県神河町越知": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.829147,
+    "latitude": 35.122356,
+    "label": "兵庫県神河町越知"
+  },
+  "兵庫県神河町宮野": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.701035,
+    "latitude": 35.083256,
+    "label": "兵庫県神河町宮野"
+  },
+  "兵庫県神河町新野": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.746414,
+    "latitude": 35.049107,
+    "label": "兵庫県神河町新野"
+  },
+  "兵庫県神河町川上": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.697998,
+    "latitude": 35.159946,
+    "label": "兵庫県神河町川上"
+  },
+  "兵庫県神河町鍛治": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.749588,
+    "latitude": 35.071159,
+    "label": "兵庫県神河町鍛治"
+  },
+  "兵庫県神河町中村": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.792053,
+    "latitude": 35.067192,
+    "label": "兵庫県神河町中村"
+  },
+  "兵庫県神河町加納": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.765381,
+    "latitude": 35.056587,
+    "label": "兵庫県神河町加納"
+  },
+  "兵庫県神河町東柏尾": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.7621,
+    "latitude": 35.066601,
+    "label": "兵庫県神河町東柏尾"
+  },
+  "兵庫県神河町杉": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 134.770447,
+    "latitude": 35.101223,
+    "label": "兵庫県神河町杉"
+  },
+  "京都府南山城村北大河原": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.00592,
+    "latitude": 34.778164,
+    "label": "京都府南山城村北大河原"
+  },
+  "京都府南山城村野殿": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.995667,
+    "latitude": 34.796215,
+    "label": "京都府南山城村野殿"
+  },
+  "奈良県大淀町中増": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.85199,
+    "latitude": 34.41254,
+    "label": "奈良県大淀町中増"
+  },
+  "奈良県大淀町土田": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.802231,
+    "latitude": 34.398403,
+    "label": "奈良県大淀町土田"
+  },
+  "奈良県大淀町佐名伝": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.7659,
+    "latitude": 34.385605,
+    "label": "奈良県大淀町佐名伝"
+  },
+  "奈良県大淀町北野": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.820953,
+    "latitude": 34.396622,
+    "label": "奈良県大淀町北野"
+  },
+  "奈良県大淀町馬佐": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.817932,
+    "latitude": 34.403999,
+    "label": "奈良県大淀町馬佐"
+  },
+  "奈良県大淀町下渕": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.781662,
+    "latitude": 34.387699,
+    "label": "奈良県大淀町下渕"
+  },
+  "奈良県大淀町大岩": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 135.764633,
+    "latitude": 34.415195,
+    "label": "奈良県大淀町大岩"
+  },
+  "滋賀県愛荘町市": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.216171,
+    "latitude": 35.173279,
+    "label": "滋賀県愛荘町市"
+  },
+  "滋賀県愛荘町東円堂": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.212967,
+    "latitude": 35.153728,
+    "label": "滋賀県愛荘町東円堂"
+  },
+  "滋賀県愛荘町元持": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.242722,
+    "latitude": 35.156994,
+    "label": "滋賀県愛荘町元持"
+  },
+  "滋賀県愛荘町川久保": {
+    "status": "ok",
+    "provider": "GSI",
+    "longitude": 136.223312,
+    "latitude": 35.184563,
+    "label": "滋賀県愛荘町川久保"
+  }
+}

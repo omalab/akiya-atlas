@@ -27,6 +27,7 @@
     {% set path = meta.url_path %}
     <nav class="site-nav" aria-label="サイト内">
       <a href="/#search"{% if path == "/" %} aria-current="page"{% endif %}>物件を探す</a>
+      <a href="/coastal/"{% if path.startswith("/coastal/") %} aria-current="page"{% endif %}>海と空港</a>
       <a href="/owners/"{% if path.startswith("/owners/") %} aria-current="page"{% endif %}>所有者の方へ</a>
       <a href="/data/"{% if path.startswith("/data/") %} aria-current="page"{% endif %}>データについて</a>
       <a href="/about/"{% if path.startswith("/about/") %} aria-current="page"{% endif %}>運営者情報</a>

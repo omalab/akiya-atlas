@@ -1,5 +1,8 @@
 # akiya-atlas（空き家アトラス）
 
+Fork feature: [Coastal Kansai/Shikoku tracker — setup, coverage, methods and sample crawl](docs/coastal/README.md).
+Build the fork's tracker and feeds with `uv run akiya-atlas coastal-build`.
+
 自治体が独自に運営する空き家バンクを横断検索できる日本語サイト。共通エンジン
 [sitemill](https://github.com/hikuzawa/sitemill) の最初の利用者。
 

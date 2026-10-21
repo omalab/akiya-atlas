@@ -143,12 +143,17 @@ jobs:
         # 依頼が無くても失敗しない。needs-human と municipality の Issue は数えるだけ
         run: uv run akiya-atlas takedowns --repo hikuzawa/akiya-atlas-ops
 
+      - name: Enrich coastal tracker (cached GSI addresses)
+        if: inputs.mode != 'deploy-only'
+        working-directory: akiya-atlas
+        run: uv run akiya-atlas coastal-enrich
+
       - name: Build
         working-directory: akiya-atlas
         env:
           GOOGLE_MAPS_EMBED_KEY: ${{ secrets.GOOGLE_MAPS_EMBED_KEY }}
           CF_WEB_ANALYTICS_TOKEN: ${{ secrets.CF_WEB_ANALYTICS_TOKEN }}
-        run: uv run sitemill build
+        run: uv run akiya-atlas coastal-build
 
       - name: 公開 URL の検査（canonical / sitemap / robots が site.toml の base_url を指す）
         working-directory: akiya-atlas
@@ -198,7 +203,7 @@ jobs:
           git config user.name "sitemill-bot"
           git config user.email "sitemill-bot@users.noreply.github.com"
           # heal は掲載ページを選び直すと data/sources と data/review を書き直す。入れないと毎晩捨てられる
-          git add data/state data/records data/runs data/search data/subsidies data/sources data/review data/reference/takedowns.json
+          git add data/state data/records data/runs data/search data/subsidies data/sources data/review data/reference/takedowns.json data/geo
           git diff --cached --quiet || git commit -m "data: $(date -u +%Y-%m-%dT%H:%MZ) の巡回・抽出結果"
           # 人の作業が同時に main へ push されると拒否される。origin/main を取り込み直して最大 3 回まで再試行し、
           # data ファイル自体が競合したら諦める（巡回状態と物件は次回の巡回で再生成される）
