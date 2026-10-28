@@ -194,6 +194,48 @@
       "Discovered - currently not indexed": 3668,
       "Submitted and indexed": 2353,
       "URL is unknown to Google": 930
+    },
+    "2026-10-22": {
+      "Crawled - currently not indexed": 13,
+      "Discovered - currently not indexed": 3593,
+      "Submitted and indexed": 2439,
+      "URL is unknown to Google": 919
+    },
+    "2026-10-23": {
+      "Crawled - currently not indexed": 13,
+      "Discovered - currently not indexed": 3520,
+      "Submitted and indexed": 2534,
+      "URL is unknown to Google": 897
+    },
+    "2026-10-24": {
+      "Crawled - currently not indexed": 13,
+      "Discovered - currently not indexed": 3445,
+      "Submitted and indexed": 2623,
+      "URL is unknown to Google": 883
+    },
+    "2026-10-25": {
+      "Crawled - currently not indexed": 13,
+      "Discovered - currently not indexed": 3372,
+      "Submitted and indexed": 2708,
+      "URL is unknown to Google": 871
+    },
+    "2026-10-26": {
+      "Crawled - currently not indexed": 13,
+      "Discovered - currently not indexed": 3302,
+      "Submitted and indexed": 2790,
+      "URL is unknown to Google": 859
+    },
+    "2026-10-27": {
+      "Crawled - currently not indexed": 10,
+      "Discovered - currently not indexed": 3193,
+      "Submitted and indexed": 2900,
+      "URL is unknown to Google": 861
+    },
+    "2026-10-28": {
+      "Crawled - currently not indexed": 9,
+      "Discovered - currently not indexed": 3108,
+      "Submitted and indexed": 2984,
+      "URL is unknown to Google": 863
     }
   }
 }
