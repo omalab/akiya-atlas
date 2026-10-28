@@ -1,6 +1,8 @@
 # 日次パイプライン: crawl → extract → build → (Secrets が揃っていれば) deploy。
 # 設計:
-#   - Cloudflare の Secrets が未設定でも crawl → extract → build までは必ず動く。
+#   - Cloudflare の Secrets が未設定でも crawl → build までは必ず動く。
+#   - ANTHROPIC_API_KEY が未設定なら extract/heal をスキップし、既存データで build/deploy する。
+#     新規物件は取り込まれないが、パイプライン自体は成功する（fork 向け）。
 #   - deploy は Cloudflare の Secrets が両方そろっているときだけ実行し、無ければスキップ（run 自体は成功）。
 #   - Secrets を後から登録すれば、ワークフローを変更せずに deploy まで動く。
 #   - Pages プロジェクト akiya-atlas は deploy の直前に CI が用意する（無ければ作成、あれば何もしない）。
@@ -61,6 +63,9 @@ jobs:
       # 保存済み HTML と取り下げ依頼は非公開の ops 側にある。fork には Secret が渡らないので、
       # そのときは checkout を飛ばし、該当の処理は skip される（tests/fixtures/README.md）
       OPS_TOKEN: ${{ secrets.OPS_REPO_TOKEN }}
+      # Extract と Heal は LLM（Anthropic）を使う。fork には Secret が渡らないことがあるので、
+      # 無ければスキップしてリポジトリの既存データで build/deploy する（新規物件は取り込まれない）
+      ANTHROPIC_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     steps:
       - name: Checkout akiya-atlas
         uses: actions/checkout@v4
@@ -115,14 +120,21 @@ jobs:
         run: uv run sitemill crawl
 
       - name: Extract
-        if: inputs.mode != 'deploy-only' # deploy-only では飛ばす
+        if: inputs.mode != 'deploy-only' && env.ANTHROPIC_KEY != ''
         working-directory: akiya-atlas
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: uv run sitemill extract
 
+      - name: Extract をスキップ（ANTHROPIC_API_KEY 未設定）
+        if: inputs.mode != 'deploy-only' && env.ANTHROPIC_KEY == ''
+        run: |
+          echo "::notice::ANTHROPIC_API_KEY が未設定のため Extract をスキップします。"
+          echo "::notice::リポジトリの既存データで build/deploy を続行します（新規物件は取り込まれません）。"
+          echo "::notice::物件を更新するには、GitHub Actions の Secrets に ANTHROPIC_API_KEY を追加してください。"
+
       - name: Heal（巡回しても 0 件の source を同一サイト内で再評価し、差し替えか状態見直し）
-        if: inputs.mode != 'deploy-only' # deploy-only では飛ばす
+        if: inputs.mode != 'deploy-only' && env.ANTHROPIC_KEY != ''
         working-directory: akiya-atlas
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -258,7 +270,7 @@ jobs:
             echo "ready=true" >> "$GITHUB_OUTPUT"
           else
             echo "ready=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::Cloudflare の Secrets が未設定のため deploy をスキップします（crawl→extract→build は完了）"
+            echo "::notice::Cloudflare の Secrets が未設定のため deploy をスキップします（crawl→build は完了）"
           fi
 
       - name: Cloudflare Pages プロジェクトを用意（無ければ作成、あれば何もしない）
