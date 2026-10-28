@@ -1,5 +1,5 @@
 {
- "layout": "sha256:32a71f89c6dce0812843fac8311c2aa871b7beaa43d88d7a6d6da2aad37f2be1",
+ "layout": "sha256:4f29b2b16dbafbe6758b061cb91a9ae228bf193b6345e06fdc49c6c2869ace83",
  "pages": {
   "about/index.html": {
    "fingerprint": "sha256:e7d2eee2eb3df4e77e82e312edeeef3f33c18123106adce7b2e18ca5846cd2f3",
@@ -1861,6 +1861,10 @@
    "fingerprint": "sha256:75b26b22c40e0b110d3b6529d6e266832240af3f62f2fd56f87cb64d24be2738",
    "lastmod": "2026-10-01"
   },
+  "coastal/index.html": {
+   "fingerprint": "sha256:cd8e5d209a4eb95d91eaf5aa3fee6fce72a3ef27a41ff6eba147e5fa00cb1fed",
+   "lastmod": "2026-10-29"
+  },
   "data/aichi/index.html": {
    "fingerprint": "sha256:544c57fe498902365407d340894edfe79edc9b2228dcaec299aa06aded8d2488",
    "lastmod": "2026-09-19"
@@ -1942,7 +1946,7 @@
    "lastmod": "2026-09-19"
   },
   "data/kochi/index.html": {
-   "fingerprint": "sha256:75573bdada3629990f1c3101d2fdee20e3905c1e75881e9792934e13da0c38e5",
+   "fingerprint": "sha256:4de4b1f588e9dcf82e812e44133998631823c91e8f4131fd0aae784a6dcaa5cc",
    "lastmod": "2026-09-19"
   },
   "data/kumamoto/index.html": {
@@ -6674,7 +6678,7 @@
    "lastmod": "2026-10-02"
   },
   "hokkaido/011002/index.html": {
-   "fingerprint": "sha256:2a4eaaeb194643daac58cc61ddce73ddd3e0690d50750f9c691e6010081f0052",
+   "fingerprint": "sha256:4a11d0b76d6cd654eb1cd423f424bd48c7fa1d1445f0ae38731daa5f9ca68979",
    "lastmod": "2026-09-19"
   },
   "hokkaido/012025/index.html": {
@@ -10330,7 +10334,7 @@
    "lastmod": "2026-10-02"
   },
   "index.html": {
-   "fingerprint": "sha256:07b5609166bfd759a2f0471521e93a5b039de98b1d8ca0ce5ccb11f3f5328199",
+   "fingerprint": "sha256:f6f99e88a812679c663bae3ab4c1e9c97c8b0d63a0866f212a72c7a3376ccd10",
    "lastmod": "2026-10-18"
   },
   "ishikawa/172014/index.html": {
@@ -13778,11 +13782,11 @@
    "lastmod": "2026-09-18"
   },
   "kochi/394289/index.html": {
-   "fingerprint": "sha256:e3de19707819d8279096ab0f7219334b5e0a6cfdf48a2d93846d89d1a8c81e80",
+   "fingerprint": "sha256:9e0defe6e21406793e569a4347d99e478ab439d427b7cedb90d32ccf982757e0",
    "lastmod": "2026-09-18"
   },
   "kochi/index.html": {
-   "fingerprint": "sha256:33f5ff88712ed85732ad3102f0140e0fe19611349cf94e124cee370764491c1b",
+   "fingerprint": "sha256:a34d9e5b6c0a734f7ba9f5cc6486ee0e1b40b75960ee479dfe44a21111c25d97",
    "lastmod": "2026-10-03"
   },
   "kumamoto/431001/index.html": {
@@ -20622,7 +20626,7 @@
    "lastmod": "2026-10-02"
   },
   "owners/hokkaido/index.html": {
-   "fingerprint": "sha256:92f05eae063faa7498960a0ac8925d90b3653a589b770c1138daa8e720c9b9e4",
+   "fingerprint": "sha256:e5c806b45c767e8fb7053b2f6ad0146fed387cbea925d9ad5f7919aa2bf4eb73",
    "lastmod": "2026-10-04"
   },
   "owners/hyogo/index.html": {

@@ -3,24 +3,26 @@
   "command": "build",
   "errors": [],
   "extraction_metrics": null,
-  "finished_at": "2026-10-17T20:50:46Z",
+  "finished_at": "2026-10-28T23:50:51Z",
   "llm": {
     "cached_calls": 0,
     "calls": 0,
     "input_tokens": 0,
     "output_tokens": 0
   },
-  "notes": [],
+  "notes": [
+    "テンプレートが変わったので lastmod の指紋を作り直し、6 ページの日付を据え置いた"
+  ],
   "service": "akiya-atlas",
   "stages": {
     "build": {
-      "files": 7026,
-      "lastmod_added": 0,
-      "lastmod_changed": 1,
-      "lastmod_kept": 6963,
-      "lastmod_relearned": 0,
-      "pages": 6972
+      "files": 7028,
+      "lastmod_added": 1,
+      "lastmod_changed": 0,
+      "lastmod_kept": 6958,
+      "lastmod_relearned": 6,
+      "pages": 6973
     }
   },
-  "started_at": "2026-10-17T20:50:04Z"
+  "started_at": "2026-10-28T23:50:27Z"
 }
