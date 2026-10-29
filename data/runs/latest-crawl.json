@@ -22,7 +22,6 @@
     "https://www.city.etajima.hiroshima.jp/cms/articles/show/8056: HTTP 500",
     "https://www.city.etajima.hiroshima.jp/cms/articles/show/821: HTTP 500",
     "https://www.city.etajima.hiroshima.jp/cms/articles/show/995: HTTP 500",
-    "https://www.city.muroran.lg.jp/life/?category=541: robots.txt 503: 今回は巡回しない",
     "https://www.e-rumoi.jp/keizai/page17_00252.html: HTTP 404",
     "https://mombetsu.jp/life/?content=2914: robots.txt 503: 今回は巡回しない",
     "https://www.town.kyowa.hokkaido.jp/news/detail.html?content=30: robots.txt 503: 今回は巡回しない",
@@ -53,10 +52,7 @@
     "https://www.yoron.jp/kiji0039193/index.html: HTTP 404",
     "https://www.vill.sagara.lg.jp/q/aview/201/333.html: HTTP 404",
     "https://www.city.nabari.lg.jp/s043/030/080/160/20260721140347.html: HTTP 404",
-    "https://www.city.kumano.lg.jp/news/detail.html?content=834: robots.txt 503: 今回は巡回しない",
-    "https://www.city.kumano.lg.jp/life/?content=2824: robots.txt 503: 今回は巡回しない",
-    "https://www.city.kumano.lg.jp/life/?content=555: robots.txt 503: 今回は巡回しない",
-    "https://www.city.kumano.lg.jp/prevention/?content=1658: robots.txt 503: 今回は巡回しない",
+    "https://www.city.kumano.lg.jp/news/detail.html?content=834: HTTP 404",
     "https://www.town.wakuya.miyagi.jp/kurashi/sekatsu/akiya/akiyabank.html: robots.txt 502: 今回は巡回しない",
     "https://www.town.wakuya.miyagi.jp/kurashi/sekatsu/sumai/taishin.html: robots.txt 502: 今回は巡回しない",
     "https://www.town.wakuya.miyagi.jp/kurashi/sekatsu/sumai/hatsuden.html: robots.txt 502: 今回は巡回しない",
@@ -75,7 +71,6 @@
     "https://www.city.sanjo.niigata.jp/soshiki/shimimbu/chiikikeieika/community/1096.html: HTTP 404",
     "https://www.city.tsubame.niigata.jp/cgi-bin/recruit.php/3/list?page_no=1: HTTP 502",
     "https://www.town.kusu.oita.jp/cgi-bin/recruit.php/1/detail/8?ck=1: HTTP 502",
-    "https://www.vill.higashi.okinawa.jp/kurashi_tetsuzuki/sumai/577.html: HTTP 404",
     "http://www.town.kumejima.okinawa.jp/docs/2020051300049/: HTTP 404",
     "https://www.city.kumagaya.lg.jp/kurashi/kankyo_sumai/akiyataisaku/rikatuyou.html: HTTP 404",
     "https://www.town.yokoze.saitama.jp/kurashi/teate/1032: HTTP 403",
@@ -89,7 +84,9 @@
     "https://www.town.tsuwano.lg.jp/www/contents/1782190745130/index.html: HTTP 404",
     "https://www.town.yoshika.lg.jp/kurashi/josei/saiseikanou/y_solar.html: HTTP 404",
     "https://www.town.yoshika.lg.jp/kurashi/josei/saiseikanou/y_wbiomass.html: HTTP 404",
-    "https://www.city.ohtawara.tochigi.jp/docs/2013082767417/: ConnectError: [Errno 111] Connection refused",
+    "https://www.city.ohtawara.tochigi.jp/docs/2014092500025/: robots.txt を取得できないため今回は巡回しない",
+    "https://www.city.ohtawara.tochigi.jp/docs/2019082600020/: robots.txt を取得できないため今回は巡回しない",
+    "https://www.city.ohtawara.tochigi.jp/docs/2013082767417/: robots.txt を取得できないため今回は巡回しない",
     "https://www.city.nasukarasuyama.lg.jp/nasukara-life/vacant-house-bank/page004598.html: HTTP 404",
     "https://www.town.minami.lg.jp/docs/4937966.html: HTTP 404",
     "https://www.city.hino.lg.jp/kurashi/annzen/1030555.html: HTTP 404",
@@ -103,7 +100,7 @@
     "http://www.vill.doshi.lg.jp/burner/log.php?id=27&url=http%3A%2F%2Fwww.vill.doshi.lg.jp%2Fakiyabank%2F: HTTP 500"
   ],
   "extraction_metrics": null,
-  "finished_at": "2026-10-28T23:49:52Z",
+  "finished_at": "2026-10-29T18:38:08Z",
   "llm": {
     "cached_calls": 0,
     "calls": 0,
@@ -114,16 +111,17 @@
   "service": "akiya-atlas",
   "stages": {
     "crawl": {
-      "changed": 337,
-      "errors": 99,
-      "fetched": 2231,
-      "not_modified": 0,
-      "requests": 3267,
+      "changed": 44,
+      "errors": 96,
+      "fetched": 593,
+      "not_modified": 170,
+      "requests": 1144,
       "skipped_link_only": 806,
+      "skipped_not_due": 637,
       "stale_cache": 0,
-      "unchanged": 1894,
+      "unchanged": 719,
       "workers": 8
     }
   },
-  "started_at": "2026-10-28T23:31:27Z"
+  "started_at": "2026-10-29T18:31:26Z"
 }
