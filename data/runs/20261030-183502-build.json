@@ -1,0 +1,26 @@
+{
+  "ci": true,
+  "command": "build",
+  "errors": [],
+  "extraction_metrics": null,
+  "finished_at": "2026-10-30T18:35:45Z",
+  "llm": {
+    "cached_calls": 0,
+    "calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0
+  },
+  "notes": [],
+  "service": "akiya-atlas",
+  "stages": {
+    "build": {
+      "files": 7028,
+      "lastmod_added": 0,
+      "lastmod_changed": 108,
+      "lastmod_kept": 6857,
+      "lastmod_relearned": 0,
+      "pages": 6973
+    }
+  },
+  "started_at": "2026-10-30T18:35:02Z"
+}
