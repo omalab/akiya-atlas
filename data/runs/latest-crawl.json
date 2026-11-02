@@ -32,8 +32,6 @@
     "https://www.town.chippubetsu.hokkaido.jp/category/detail.html?category=life&content=67: robots.txt 503: 今回は巡回しない",
     "https://www.town.chippubetsu.hokkaido.jp/category/detail.html?category=life&content=212: robots.txt 503: 今回は巡回しない",
     "https://www.town.minamifurano.hokkaido.jp/kurashi-info/%e4%bd%8f%e5%ae%85-2/%e4%bd%8f%e5%ae%85%e3%83%aa%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e5%8a%a9%e6%88%90%e9%87%91%e4%ba%8b%e6%a5%ad/: HTTP 404",
-    "https://www.town.kiyosato.hokkaido.jp/life/?content=782: robots.txt 503: 今回は巡回しない",
-    "https://www.town.kiyosato.hokkaido.jp/life/?content=761: robots.txt 503: 今回は巡回しない",
     "https://www.urahoro.jp/life/?content=2477: robots.txt 503: 今回は巡回しない",
     "https://www.urahoro.jp/life/?content=3170: robots.txt 503: 今回は巡回しない",
     "https://www.urahoro.jp/news/detail.html?content=877: robots.txt 503: 今回は巡回しない",
@@ -46,11 +44,11 @@
     "https://www.town.ibaraki-kawachi.lg.jp/page/page001058.html: robots.txt 202: 今回は巡回しない",
     "https://www.town.ibaraki-kawachi.lg.jp/page/page002651.html: robots.txt 202: 今回は巡回しない",
     "https://www.town.ibaraki-kawachi.lg.jp/page/page002668.html: robots.txt 202: 今回は巡回しない",
+    "https://www.town.tsubata.lg.jp/site/welcome/1222.html: HTTP 404",
     "https://www.town.isen.kagoshima.jp/kensetu/r6/akyakaisyu.html: HTTP 404",
     "https://www.yoron.jp/kiji0039193/index.html: HTTP 404",
     "https://www.city.zama.kanagawa.jp/kurashi/sumai/josei/1014037.html: HTTP 404",
     "https://www.city.zama.kanagawa.jp/kurashi/sumai/josei/1009160.html: HTTP 404",
-    "https://www.town.nagomi.lg.jp/iju/teijyuu/akiya/16/: HTTP 404",
     "https://www.vill.sagara.lg.jp/q/aview/201/333.html: HTTP 404",
     "https://www.city.nabari.lg.jp/s043/030/080/160/20260721140347.html: HTTP 404",
     "https://www.city.kumano.lg.jp/news/detail.html?content=834: HTTP 404",
@@ -69,8 +67,6 @@
     "https://www.city.omachi.nagano.jp/00002000/00002800/00002816.html: HTTP 404",
     "https://www.vill.shimokitayama.nara.jp/kurashi/roukyu.html: HTTP 404",
     "https://www.city.sanjo.niigata.jp/soshiki/shimimbu/chiikikeieika/community/1096.html: HTTP 404",
-    "https://www.city.tsubame.niigata.jp/cgi-bin/recruit.php/3/list?page_no=1: HTTP 502",
-    "https://www.town.kusu.oita.jp/cgi-bin/recruit.php/1/detail/8?ck=1: HTTP 502",
     "http://www.town.kumejima.okinawa.jp/docs/2020051300049/: HTTP 404",
     "https://www.town.taketomi.lg.jp/topics/taketomireform/: HTTP 404",
     "https://www.city.kumagaya.lg.jp/kurashi/kankyo_sumai/akiyataisaku/rikatuyou.html: HTTP 404",
@@ -85,6 +81,7 @@
     "https://www.town.tsuwano.lg.jp/www/contents/1782190745130/index.html: HTTP 404",
     "https://www.town.yoshika.lg.jp/kurashi/josei/saiseikanou/y_solar.html: HTTP 404",
     "https://www.town.yoshika.lg.jp/kurashi/josei/saiseikanou/y_wbiomass.html: HTTP 404",
+    "https://www.city.sano.lg.jp/cgi-bin/recruit.php/2/list: ReadTimeout: The read operation timed out",
     "https://www.city.ohtawara.tochigi.jp/docs/2014092500025/: robots.txt を取得できないため今回は巡回しない",
     "https://www.city.ohtawara.tochigi.jp/docs/2019082600020/: robots.txt を取得できないため今回は巡回しない",
     "https://www.city.ohtawara.tochigi.jp/docs/2013082767417/: robots.txt を取得できないため今回は巡回しない",
@@ -101,7 +98,7 @@
     "http://www.vill.doshi.lg.jp/burner/log.php?id=27&url=http%3A%2F%2Fwww.vill.doshi.lg.jp%2Fakiyabank%2F: HTTP 500"
   ],
   "extraction_metrics": null,
-  "finished_at": "2026-11-01T18:33:26Z",
+  "finished_at": "2026-11-02T18:35:55Z",
   "llm": {
     "cached_calls": 0,
     "calls": 0,
@@ -112,17 +109,17 @@
   "service": "akiya-atlas",
   "stages": {
     "crawl": {
-      "changed": 15,
-      "errors": 97,
-      "fetched": 626,
-      "not_modified": 191,
-      "requests": 1222,
+      "changed": 83,
+      "errors": 94,
+      "fetched": 644,
+      "not_modified": 169,
+      "requests": 1213,
       "skipped_link_only": 806,
-      "skipped_not_due": 619,
+      "skipped_not_due": 621,
       "stale_cache": 0,
-      "unchanged": 802,
+      "unchanged": 730,
       "workers": 8
     }
   },
-  "started_at": "2026-11-01T18:26:14Z"
+  "started_at": "2026-11-02T18:28:43Z"
 }

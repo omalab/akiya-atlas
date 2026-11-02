@@ -3,7 +3,7 @@
   "command": "build",
   "errors": [],
   "extraction_metrics": null,
-  "finished_at": "2026-11-01T18:34:51Z",
+  "finished_at": "2026-11-02T18:37:32Z",
   "llm": {
     "cached_calls": 0,
     "calls": 0,
@@ -22,5 +22,5 @@
       "pages": 6973
     }
   },
-  "started_at": "2026-11-01T18:34:17Z"
+  "started_at": "2026-11-02T18:36:48Z"
 }
